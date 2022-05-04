@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.149" height="48.283" viewBox="0 0 48.149 48.283">
+  <g id="Sun_Icon" data-name="Sun Icon" transform="translate(1.5 1.5)">
+    <g id="Ellipse_135" data-name="Ellipse 135" transform="translate(9.575 9.485)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+      <circle cx="13" cy="13" r="13" stroke="none"/>
+      <circle cx="13" cy="13" r="11.5" fill="none"/>
+    </g>
+    <path id="Path_1131" data-name="Path 1131" d="M128,6565.547v10.327" transform="translate(-105.425 -6565.547)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_1132" data-name="Path 1132" d="M0,0V10.327" transform="translate(0 21.783) rotate(-90)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_1133" data-name="Path 1133" d="M0,0V10.327" transform="translate(34.822 21.783) rotate(-90)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_1134" data-name="Path 1134" d="M128,6575.874v-10.327" transform="translate(-105.425 -6530.591)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_1135" data-name="Path 1135" d="M0,0V10.327" transform="matrix(0.719, -0.695, 0.695, 0.719, 6.326, 6.197)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_1136" data-name="Path 1136" d="M0,10.327V0" transform="matrix(0.719, 0.695, -0.695, 0.719, 13.5, 30.865)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_1137" data-name="Path 1137" d="M0,0V10.327" transform="matrix(-0.719, 0.695, -0.695, -0.719, 38.825, 38.294)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_1138" data-name="Path 1138" d="M0,10.327V0" transform="matrix(0.719, 0.695, -0.695, 0.719, 38.033, 6.331)" fill="none" stroke="#92ac78" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>

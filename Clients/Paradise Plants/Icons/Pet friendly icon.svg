@@ -1,0 +1,19 @@
+<svg id="Pet_friendly_icon" data-name="Pet friendly icon" xmlns="http://www.w3.org/2000/svg" width="49.949" height="40.316" viewBox="0 0 49.949 40.316">
+  <g id="Ellipse_136" data-name="Ellipse 136" transform="matrix(0.891, -0.454, 0.454, 0.891, 0, 11.559)" fill="none" stroke="#92ac78" stroke-width="3">
+    <ellipse cx="5.281" cy="6.094" rx="5.281" ry="6.094" stroke="none"/>
+    <ellipse cx="5.281" cy="6.094" rx="3.781" ry="4.594" fill="none"/>
+  </g>
+  <g id="Ellipse_137" data-name="Ellipse 137" transform="translate(14)" fill="none" stroke="#92ac78" stroke-width="3">
+    <ellipse cx="6" cy="6.5" rx="6" ry="6.5" stroke="none"/>
+    <ellipse cx="6" cy="6.5" rx="4.5" ry="5" fill="none"/>
+  </g>
+  <g id="Ellipse_138" data-name="Ellipse 138" transform="matrix(0.914, 0.407, -0.407, 0.914, 31.642, 1.214)" fill="none" stroke="#92ac78" stroke-width="3">
+    <ellipse cx="5.688" cy="6.5" rx="5.688" ry="6.5" stroke="none"/>
+    <ellipse cx="5.688" cy="6.5" rx="4.188" ry="5" fill="none"/>
+  </g>
+  <g id="Ellipse_139" data-name="Ellipse 139" transform="translate(42.703 13.591) rotate(42)" fill="none" stroke="#92ac78" stroke-width="3">
+    <ellipse cx="4.875" cy="5.688" rx="4.875" ry="5.688" stroke="none"/>
+    <ellipse cx="4.875" cy="5.688" rx="3.375" ry="4.188" fill="none"/>
+  </g>
+  <path id="Path_1158" data-name="Path 1158" d="M428.5,6597.925c-1.113,1.125-4.862,5.893-2.369,9.222s5.984,3.477,9.152,2.043a15.869,15.869,0,0,1,9.823-.323c1.47.666,6.878,2.737,8.74-.861s.6-6.979-1.184-9.288-4.481-7.266-6-8.333-7-4.569-12.046-.505C430.8,6593.7,429.614,6596.8,428.5,6597.925Z" transform="translate(-416.992 -6571.416)" fill="none" stroke="#92ac78" stroke-width="3"/>
+</svg>

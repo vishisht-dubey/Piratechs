@@ -1,0 +1,12 @@
+<svg id="Cart_Icon" data-name="Cart Icon" xmlns="http://www.w3.org/2000/svg" width="34" height="35.903" viewBox="0 0 34 35.903">
+  <g id="cart" transform="translate(0 10)">
+    <g id="Group_21511" data-name="Group 21511">
+      <path id="bag_3" d="M312.971,519.57a3.208,3.208,0,0,0-2.412-1.094h-.353l-1.3-5.25A1.608,1.608,0,0,0,307.342,512H294.47a1.619,1.619,0,0,0-1.562,1.226l-1.3,5.25h-.353a3.208,3.208,0,0,0-2.412,1.094,3.252,3.252,0,0,0-.78,2.545l1.608,12.951a3.226,3.226,0,0,0,3.194,2.836H308.95a3.226,3.226,0,0,0,3.194-2.836l1.609-12.951a3.254,3.254,0,0,0-.782-2.545Zm-17.245-4.332h10.361l.809,3.238H294.929Zm-2.865,19.427-1.609-12.951h19.307l-1.609,12.951H292.861Zm4.831-9.713a1.619,1.619,0,0,0-1.608,1.619v3.238a1.609,1.609,0,1,0,3.217,0V526.57A1.619,1.619,0,0,0,297.692,524.951Zm6.437,0a1.619,1.619,0,0,0-1.609,1.619v3.238a1.609,1.609,0,1,0,3.218,0V526.57a1.619,1.619,0,0,0-1.614-1.619Z" transform="translate(-288.034 -512)" fill="#92ac78" fill-rule="evenodd"/>
+    </g>
+  </g>
+  <g id="Ellipse_142" data-name="Ellipse 142" transform="translate(9)" fill="#92ac78" stroke="#e5e6ee" stroke-width="2">
+    <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+    <circle cx="12.5" cy="12.5" r="11.5" fill="none"/>
+  </g>
+  <text id="_3" data-name="3" transform="translate(17 3)" fill="#e5e6ee" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="15">3</tspan></text>
+</svg>
