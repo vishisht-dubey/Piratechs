@@ -1,13 +1,10 @@
-# Piratechs
+#### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white)
+# Next.Js Typescript Sass Starter
 
-[![Build Status](https://travis-ci.org/mattlewis92/angular-calendar.svg?branch=master)](https://travis-ci.org/mattlewis92/angular-calendar) [![License Badge: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Twitter Follow](https://img.shields.io/twitter/follow/Strawhat_19.svg)](https://twitter.com/Strawhat_19)
+Created a successful Next.js with Sass/TypeScript starter template ready made for deployment to Heroku with all the packages and dependencies I normally use. Will probably use this to make my new updated portfolio.
 
-#### This is a Folder // Directory // Repository to store all interal Piratechs Team Documents.
-
-![Piratechs](./PiratechsBanner.JPG)
-![Piratechs Board](./PiratechsBoard.png)
+![Screenshot of Home](./public/assets/nextjs-typescript-sass-starter3.png)
 
 ## Table of Contents
 
@@ -18,17 +15,21 @@
 
 ## Usage
 
-You can view files at the root directory
+You can view the deployed application at https://nextjs-typescript-starter.herokuapp.com/
 
 ## Installation
 
 ```bash
-download folder
-then
 npm install
+then
+npm run dev
+#or
+npm run init
 ```
 
 ## Licensing
+
+[![License Badge: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ####
 
@@ -68,8 +69,6 @@ npm install
 #### https://opensource.org/licenses/MIT
 
 ## Questions
-
-#### Official Website: [Piratechs](https://piratechs.com/)
 
 #### GitHub Profile: [_strawhat19_](https://github.com/strawhat19)
 
