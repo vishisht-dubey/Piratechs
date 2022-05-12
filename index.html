@@ -15,7 +15,7 @@
         <form
           class="financialInformationForm"
           id="financialInformationForm"
-          (input)="calculateStats($event)"
+          oninput="calculateStats(event)"
         >
           <input
             type="text"
@@ -39,7 +39,7 @@
             placeholder="Annual Salary"
           />
           <div class="buttons">
-            <button id="addMonthlyBillButton" (click)="addMonthlyBill($event)">
+            <button id="addMonthlyBillButton" onclick="addMonthlyBill(event)">
               Add Monthly Bill
             </button>
           </div>
@@ -52,7 +52,7 @@
             id="jobInput"
             class="jobInput"
             placeholder="Job Title"
-            (input)="capitalizeInput($event)"
+            oninput="capitalizeInput(event)"
           />
           <input
             type="text"
@@ -60,7 +60,7 @@
             id="companyInput"
             class="companyInput"
             placeholder="Company Name"
-            (input)="capitalizeInput($event)"
+            oninput="capitalizeInput(event)"
           />
           <input
             type="email"
@@ -78,10 +78,10 @@
           />
         </form>
         <div class="buttons registration signUpButtons">
-          <button id="signInButton" (click)="registrationActions($event)">
+          <button id="signInButton" onclick="registrationActions(event)">
             Sign In
           </button>
-          <button id="signUpButton" (click)="registrationActions($event)">
+          <button id="signUpButton" onclick="registrationActions(event)">
             Sign Up
           </button>
         </div>
@@ -213,5 +213,6 @@
         </form>
       </div>
     </div>
+    <script src="./calculator.js"></script>
   </body>
 </html>
