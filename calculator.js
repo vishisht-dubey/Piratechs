@@ -1,6 +1,24 @@
-let capitalizeInput = (e) => (e.target.value = toUpperCase(e.target.value));
+import { emojis } from './emojis.js';
+import { fetchGithub } from './github.js';
 
-let addMonthlyBill = (event) => {
+const getGithub = fetchGithub();
+const capitalizeInput = e => (e.target.value = toUpperCase(e.target.value));
+const initialState = JSON.parse(localStorage.getItem(`State`)) || { constants: {emojis, getGithub, capitalizeInput},
+  functions: { // Global Helper Functions
+    capFirstLetters: string => string.replace(`  `, ` `).split(` `).map(word => word?.charAt(0)?.toUpperCase() + word?.slice(1).toLowerCase()).join(` `)
+  }
+};
+const previousState = {...initialState};
+let setState = state => {
+  if (!state) state = {...previousState};
+  console.log(`State`, state);
+  localStorage.setItem(`State`, JSON.stringify(state));
+};
+
+setState();
+getGithub.then(github => setState({...previousState, github}));
+
+let addMonthlyBill = event => {
   event.preventDefault();
   const buttonsCont = event.target.parentElement;
   const financialForm = event.target.parentElement.parentElement;
@@ -33,7 +51,7 @@ let addMonthlyBill = (event) => {
   });
 };
 
-let registrationActions = (event) => {
+let registrationActions = event => {
   event.preventDefault();
   const currentButton = event.target;
   const currentForm = event.target.parentElement.previousSibling;
@@ -97,7 +115,7 @@ let registrationActions = (event) => {
   }
 };
 
-const calculateStats = (event) => {
+const calculateStats = event => {
   event.preventDefault();
   const currentInput = event.target;
   const hourlyInput = document.querySelector(`#hourlyInput`);
