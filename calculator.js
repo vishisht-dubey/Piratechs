@@ -1,22 +1,4 @@
-import { emojis } from './emojis.js';
-import { fetchGithub } from './github.js';
-
-const getGithub = fetchGithub();
-const capitalizeInput = e => (e.target.value = toUpperCase(e.target.value));
-const initialState = JSON.parse(localStorage.getItem(`State`)) || { constants: {emojis, getGithub, capitalizeInput},
-  functions: { // Global Helper Functions
-    capFirstLetters: string => string.replace(`  `, ` `).split(` `).map(word => word?.charAt(0)?.toUpperCase() + word?.slice(1).toLowerCase()).join(` `)
-  }
-};
-const previousState = {...initialState};
-let setState = state => {
-  if (!state) state = {...previousState};
-  console.log(`State`, state);
-  localStorage.setItem(`State`, JSON.stringify(state));
-};
-
-setState();
-getGithub.then(github => setState({...previousState, github}));
+const capitalizeInput = event => (event.target.value = toUpperCase(event.target.value));
 
 let addMonthlyBill = event => {
   event.preventDefault();

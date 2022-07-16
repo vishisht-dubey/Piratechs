@@ -51,8 +51,8 @@ export class Repository {
     const repoResponse = await fetch(repoURL);
     const userResponse = await fetch(githubURL);
     const repositories = await repoResponse.json();
-    const user = await userResponse.json();
-    const {name,html_url,bio,blog,avatar_url,login,public_repos,repos_url,starred_url,followers,following} = user;
+    const data = await userResponse.json();
+    const {name,html_url,bio,blog,avatar_url,login,public_repos,repos_url,starred_url,followers,following} = data;
     const customRepos = repositories.map(repo => new Repository(repo.name,repo.html_url,repo.created_at,repo.owner,repo.topics,repo.license,repo.updated_at,repo.deployments_url,repo.language,repo.homepage,repo.description));
-    return {user,repositories,public: new User(name,html_url,bio,customRepos,blog,avatar_url,login,public_repos,repos_url,starred_url,followers,following)};
+    return {data,repositories,user: new User(name,html_url,bio,customRepos,blog,avatar_url,login,public_repos,repos_url,starred_url,followers,following)};
 };
