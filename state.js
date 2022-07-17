@@ -297,6 +297,8 @@ financialInformationForm.addEventListener(`input`, formInputEvent => {
 });
 
 // Listen for Reg Button Clicks
+const registrationButtons = document.querySelectorAll(`.registrationButtons`);
+console.log(`Change Mobile logo so that it is not abbreviated, use icon or full logo`)
 registrationButtons.forEach(btn => btn.addEventListener(`click`, regButtonClickedEvent => {
     regButtonClickedEvent.preventDefault();
   const currentButton = regButtonClickedEvent.target;
