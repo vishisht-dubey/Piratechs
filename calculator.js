@@ -1,3 +1,5 @@
+document.body.fadeIn(1500);
+
 let capitalizeInput = (e) => (e.target.value = toUpperCase(e.target.value));
 
 let addMonthlyBill = (event) => {
