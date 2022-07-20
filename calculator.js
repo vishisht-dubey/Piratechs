@@ -1,8 +1,6 @@
-document.body.fadeIn(1500);
+const capitalizeInput = event => (event.target.value = toUpperCase(event.target.value));
 
-let capitalizeInput = (e) => (e.target.value = toUpperCase(e.target.value));
-
-let addMonthlyBill = (event) => {
+let addMonthlyBill = event => {
   event.preventDefault();
   const buttonsCont = event.target.parentElement;
   const financialForm = event.target.parentElement.parentElement;
@@ -35,7 +33,7 @@ let addMonthlyBill = (event) => {
   });
 };
 
-let registrationActions = (event) => {
+let registrationActions = event => {
   event.preventDefault();
   const currentButton = event.target;
   const currentForm = event.target.parentElement.previousSibling;
@@ -99,7 +97,7 @@ let registrationActions = (event) => {
   }
 };
 
-const calculateStats = (event) => {
+const calculateStats = event => {
   event.preventDefault();
   const currentInput = event.target;
   const hourlyInput = document.querySelector(`#hourlyInput`);

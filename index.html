@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Piratechs Budget</title>
     <link rel="stylesheet" href="./main.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="./PiratechsBudget.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -13,47 +13,45 @@
     />
   </head>
   <body>
-    <div class="calculator" id="container">
+    <div class="calculator" id="container" #container>
       <div class="entryForm">
         <h2>Financial Information</h2>
         <form
           class="financialInformationForm"
-          id="financialInformationForm"
-          oninput="calculateStats(event)"
-        >
+          id="financialInformationForm" #financialInformationForm>
           <input
             type="text"
             name="hourlyInput2"
-            id="hourlyInput"
+            id="hourlyInput" #hourlyInput
             class="hourlyInput currencyFormat"
             placeholder="Hourly Rate"
           />
           <input
             type="text"
             name="weeklyInput"
-            id="weeklyInput"
+            id="weeklyInput" #weeklyInput
             class="weeklyInput numberFormat"
             placeholder="Hours Worked in a Week"
           />
           <input
             type="text"
             name="salaryInput"
-            id="salaryInput"
+            id="salaryInput" #salaryInput
             class="salaryInput fullWidth currencyFormat"
             placeholder="Annual Salary"
           />
           <div class="buttons">
-            <button id="addMonthlyBillButton" onclick="addMonthlyBill(event)">
+            <button id="addMonthlyBillButton" #addMonthlyBillButton onclick="addMonthlyBill(event)">
               Add Monthly Bill
             </button>
           </div>
         </form>
-        <h2 id="registration auth formSwitchTitle">Sign Up or Sign In</h2>
-        <form class="registration auth signUpForm" id="signUpForm">
+        <h2 id="registration  #registrationauth formSwitchTitle">Sign Up or Sign In</h2>
+        <form class="registration auth signUpForm" id="signUpForm" #signUpForm>
           <input
             type="text"
             name="jobInput"
-            id="jobInput"
+            id="jobInput" #jobInput
             class="jobInput"
             placeholder="Job Title"
             oninput="capitalizeInput(event)"
@@ -61,7 +59,7 @@
           <input
             type="text"
             name="companyInput"
-            id="companyInput"
+            id="companyInput" #companyInput
             class="companyInput"
             placeholder="Company Name"
             oninput="capitalizeInput(event)"
@@ -69,35 +67,35 @@
           <input
             type="email"
             name="emailInput"
-            id="emailInput"
+            id="emailInput" #emailInput
             class="emailInput fullWidth"
             placeholder="Email Address"
           />
           <input
             type="password"
             name="passwordInput"
-            id="passwordInput"
+            id="passwordInput" #passwordInput
             class="passwordInput fullWidth"
             placeholder="Password"
           />
         </form>
-        <div class="buttons registration signUpButtons">
-          <button id="signInButton" onclick="registrationActions(event)">
+        <div class="buttons registration signUpButtons" id="registrationButtons" #registrationButtons>
+          <button id="signInButton" class="registrationButtons" #signInButton>
             Sign In
           </button>
-          <button id="signUpButton" onclick="registrationActions(event)">
+          <button id="signUpButton" class="registrationButtons" #signUpButton>
             Sign Up
           </button>
         </div>
       </div>
       <div style="border-left: 1px solid #000; height: 500px"></div>
-      <div class="entryForm statistics" id="statistics">
-        <h2 id="switchTitle">Financial Statistics</h2>
-        <form class="financialStatisticsForm" id="financialStatisticsForm">
+      <div class="entryForm statistics" id="statistics" #statistics>
+        <h2 id="switchTitle" #switchTitle>Financial Statistics</h2>
+        <form class="financialStatisticsForm" id="financialStatisticsForm" #financialStatisticsForm>
           <input
             type="text"
             class="hourly"
-            id="hourly"
+            id="hourly" #hourly
             name="hourly"
             value="Hourly Wage"
             readonly
@@ -105,7 +103,7 @@
           <input
             type="text"
             class="hourlyTaxes"
-            id="hourlyTaxes"
+            id="hourlyTaxes" #hourlyTaxes
             name="hourlyTaxes"
             value="Hourly Taxes"
             readonly
@@ -113,7 +111,7 @@
           <input
             type="text"
             class="hourlyCash"
-            id="hourlyCash"
+            id="hourlyCash" #hourlyCash
             name="hourlyCash"
             value="Hourly Cash"
             readonly
@@ -121,7 +119,7 @@
           <input
             type="text"
             class="daily"
-            id="daily"
+            id="daily" #daily
             name="daily"
             value="Daily Income"
             readonly
@@ -129,7 +127,7 @@
           <input
             type="text"
             class="dailyTaxes"
-            id="dailyTaxes"
+            id="dailyTaxes" #dailyTaxes
             name="dailyTaxes"
             value="Daily Taxes"
             readonly
@@ -137,7 +135,7 @@
           <input
             type="text"
             class="dailyCash"
-            id="dailyCash"
+            id="dailyCash" #dailyCash
             name="dailyCash"
             value="Daily Cash"
             readonly
@@ -145,7 +143,7 @@
           <input
             type="text"
             class="weekly"
-            id="weekly"
+            id="weekly" #weekly
             name="weekly"
             value="Weekly Income"
             readonly
@@ -153,7 +151,7 @@
           <input
             type="text"
             class="weeklyTaxes"
-            id="weeklyTaxes"
+            id="weeklyTaxes" #weeklyTaxes
             name="weeklyTaxes"
             value="Weekly Taxes"
             readonly
@@ -161,7 +159,7 @@
           <input
             type="text"
             class="weeklyCash"
-            id="weeklyCash"
+            id="weeklyCash" #weeklyCash
             name="weeklyCash"
             value="Weekly Cash"
             readonly
@@ -169,7 +167,7 @@
           <input
             type="text"
             class="monthly"
-            id="monthly"
+            id="monthly" #monthly
             name="monthly"
             value="Monthly Income"
             readonly
@@ -177,7 +175,7 @@
           <input
             type="text"
             class="monthlyTaxes"
-            id="monthlyTaxes"
+            id="monthlyTaxes" #monthlyTaxes
             name="monthlyTaxes"
             value="Monthly Taxes"
             readonly
@@ -185,7 +183,7 @@
           <input
             type="text"
             class="monthlyCash"
-            id="monthlyCash"
+            id="monthlyCash" #monthlyCash
             name="monthlyCash"
             value="Monthly Cash"
             readonly
@@ -193,7 +191,7 @@
           <input
             type="text"
             class="yearly"
-            id="yearly"
+            id="yearly" #yearly
             name="yearly"
             value="Annual Salary"
             readonly
@@ -201,7 +199,7 @@
           <input
             type="text"
             class="yearly yearlyTaxes"
-            id="yearlyTaxes"
+            id="yearlyTaxes" #yearlyTaxes
             name="yearlyTaxes"
             value="Annual Taxes"
             readonly
@@ -209,7 +207,7 @@
           <input
             type="text"
             class="yearly yearlyCash"
-            id="yearlyCash"
+            id="yearlyCash" #yearlyCash
             name="yearlyCash"
             value="Annual Cash"
             readonly
@@ -217,10 +215,6 @@
         </form>
       </div>
     </div>
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Moment.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./calculator.js"></script>
+    <script type="module" src="./state.js"></script>
   </body>
 </html>
