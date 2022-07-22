@@ -75,4 +75,4 @@ npm install
 
 #### GitHub Organization: [_Piratechs-LLC_](https://github.com/Piratechs-LLC/)
 
-#### Contact me or ask me questions at [rakib987@gmail.com](mailto:rakib987@gmail.com)
+#### Contact me or ask me questions at [rahmed@piratechs.com](mailto:rahmed@piratechs.com)
